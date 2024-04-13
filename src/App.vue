@@ -19,6 +19,11 @@ const goList = () => {
 
 <template>
   <div>
+    <hr />
+    <router-view></router-view>
+
+    <hr />
+    <hr />
     我是app
     <el-button @click="$router.push('/home')">跳首页</el-button>
     <el-button @click="goList">跳页表页</el-button>
